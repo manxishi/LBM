@@ -12,15 +12,15 @@ def main():
 	nx                     = 400    		# x lattice grid
 	ny                     = 100    		# y lattice grid
 	rho0                   = 1      		# average density
-	Re 					   = 60			# Reynolds number
-	tau 				   = 27/Re + 1/2	# relaxation time
+	Re 		       = 60			# Reynolds number
+	tau 		       = 27/Re + 1/2		# relaxation time
 	nt                     = 6000   		# number of timesteps
-	plot 				   = True 			# plot in real time
-	dpdx 				   = 1e-5			# pressure difference
-	wall_boundary          = True           # True if top and bottom boundaries are solid walls
+	plot 		       = True 			# plot in real time
+	dpdx 		       = 1e-5			# pressure difference
+	wall_boundary          = True           	# True if top and bottom boundaries are solid walls
 	
 	# Lattice speeds and weights
-	n 		= 9
+	n 	= 9
 	idxs 	= np.arange(n)
 	cxs 	= np.array([0,1,0,-1,0,1,-1,-1,1])
 	cys 	= np.array([0,0,1,0,-1,1,1,-1,-1])
