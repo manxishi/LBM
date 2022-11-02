@@ -11,13 +11,13 @@ def main():
 	ny                     = 100    # resolution y-dir
 	rho0                   = 1    	# average density
 	tau                    = 0.6    # collision timescale
-	nu					   = 1/30	# kinematic viscosity
-	nt 					   = 30000	# number of time steps
-	dpdx 				   = 1e-6	# presure difference
-	plot 				   = True 	# plot in real time
+	nu		       = 1/30	# kinematic viscosity
+	nt 		       = 30000	# number of time steps
+	dpdx 		       = 1e-6	# presure difference
+	plot 		       = True 	# plot in real time
 
 	# Lattice speeds / weights
-	n 		= 9
+	n 	= 9
 	idxs 	= np.arange(n)
 	cxs 	= np.array([0,1,0,-1,0,1,-1,-1,1])
 	cys 	= np.array([0,0,1,0,-1,1,1,-1,-1])
