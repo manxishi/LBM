@@ -29,7 +29,7 @@ def main():
 
 	# Initial Conditions
 	f = np.ones((ny,nx,n))
-	# ny elements, within these elements nx elements, most nested lists have 9 elements, one value for each direction
+	# ny elements, within these elements nx elements, nested lists have 9 elements, one value for each direction
 	# np.random.seed(42)
 	# f += 0.01*np.random.randn(ny,nx,n) # adds a bit of randomness to f
 	# f[:,:,3] += 2 * (1+0.2*np.cos(2*np.pi*X/nx*4))  # initial velocity condition, how the fluid comes in, only in direction 3 (positive x)
