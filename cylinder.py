@@ -1,5 +1,5 @@
 # Manxi (Maggie) Shi
-# Nov 1 2022
+# 2022 2023
 # Lattice Boltzmann Method: Flow around a Cylinder
 
 import matplotlib.pyplot as plt
